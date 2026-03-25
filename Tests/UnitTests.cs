@@ -101,6 +101,8 @@ public class Division
         Assert.ThrowsException<ArgumentNullException>(() => Program.Divide(null, "1"));
         Assert.ThrowsException<ArgumentNullException>(() => Program.Divide(null, null));
     }
+}
+
 [TestClass]
 public class PowerTests
 {
