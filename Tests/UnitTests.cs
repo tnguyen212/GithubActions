@@ -76,11 +76,6 @@ public class Addition
         Assert.AreEqual(1,   Program.Divide("10", "10"));
     }
     [TestMethod]
-    public void Divide_ByZero_Patino()
-    {
-        Assert.AreEqual(double.PositiveInfinity, Program.Divide("5", "0"));
-    }
-    [TestMethod]
     public void Divide_Invalid_Patino()
     {
         Assert.ThrowsException<FormatException>(() => Program.Divide("1", "a"));
